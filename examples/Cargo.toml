@@ -31,7 +31,7 @@ piper = "0.1.1"
 reqwest = "0.10.4"
 scraper = "0.11.0"
 signal-hook = "0.1.13"
-smol = { path = "../", features = ["tokio02"] }
+smol = { path = "../" }
 surf = { version = "2.0.0-alpha.1", default-features = false, features = ["h1-client"] }
 tempfile = "3.1.0"
 tokio = { version = "0.2.18", default-features = false }
@@ -121,3 +121,23 @@ path = "websocket-server.rs"
 [[example]]
 name = "windows-uds"
 path = "windows-uds.rs"
+
+[[example]]
+name = "sensors"
+path = "sensors.rs"
+
+[[example]]
+name = "sensors2"
+path = "sensors2.rs"
+
+[[example]]
+name = "sensors3"
+path = "sensors3.rs"
+
+[[example]]
+name = "sensors4"
+path = "sensors4.rs"
+
+[[example]]
+name = "sensors5"
+path = "sensors5.rs"
